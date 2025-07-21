@@ -35,7 +35,7 @@ After that it asks if you want to download video or audio.
 Then it asks for the URL of the video. 
 Happy Downloading
 
-###  In Terminal (only for MacOS)
+### 2. In Terminal directly (only for MacOS)
 1. Installing HomeBrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
