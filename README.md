@@ -30,5 +30,9 @@ A simple Python script to download YouTube videos or audio (MP3) on macOS using 
 git clone https://github.com/Anupparajuli01/Downloading_Youtube_Video.git
 cd Downloading_Youtube_Video
 python3 VideoAudioDownloaderFromYoutube.py
+```
+After that it asks if you want to download video or audio
+Then it asks for the URL of the video. 
+Happy Downloading
 
 
