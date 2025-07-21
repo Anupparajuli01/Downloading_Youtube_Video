@@ -7,7 +7,7 @@ A simple Python script to download YouTube videos or audio (MP3) on macOS using 
 ## Features
 
 - Automatically checks for **Homebrew** and installs it if missing
-- Creates and uses a Python virtual environment (`venv`)
+- Creates and uses a Python virtual environment (`ytvenv`. It creates where the file is located. 
 - Installs or upgrades `yt-dlp` inside the virtual environment
 - Checks for `ffmpeg` and installs it via Homebrew if missing (required for audio extraction)
 - Supports downloading video (MP4) or extracting audio as MP3
