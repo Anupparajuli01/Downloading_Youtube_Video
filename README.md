@@ -1,5 +1,5 @@
 # Downloading_Youtube_Video
-This python program is desined for macOS
+This python program is desined for macOS.
 A simple Python script to download YouTube videos or audio (MP3) on macOS using Homebrew, a virtual environment, ffmpeg, and [yt-dlp] (https://github.com/yt-dlp/yt-dlp).
 
 ---
