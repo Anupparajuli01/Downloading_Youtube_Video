@@ -35,4 +35,31 @@ After that it asks if you want to download video or audio.
 Then it asks for the URL of the video. 
 Happy Downloading
 
+###  In Terminal (only for MacOS)
+1. Installing HomeBrew
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+2. Installing yt-dlp
+```bash
+brew install yt-dlp
+```
+3. Installing ffmpeg (for mp3)
+```bash
+brew install ffmpeg
+```
+Now you are ready to download the youtube video/audio.
+<br>
+
+To download video copy and replace the URL in the code bellow. By default I have my favourite singer song there. 
+```bash
+yt-dlp -f "bestvideo[ext=mp4][vcodec^=avc]+bestaudio[ext=m4a]/mp4" \
+-o ~/Downloads/"%(title)s.%(ext)s" \
+"https://www.youtube.com/watch?v=AMRGmAh2NTk"
+```
+To download audio copy and replace the URL in the code bellow. By default I have my favourite singer song there.
+```bash
+yt-dlp -x --audio-format mp3 -o ~/Downloads/"%(title)s.%(ext)s" "https://www.youtube.com/watch?v=AMRGmAh2NTk"
+```
+
 
